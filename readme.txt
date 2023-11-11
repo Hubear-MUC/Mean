@@ -1,22 +1,33 @@
-Mean 1.0
------------
+Mean 2.0
+--------
 
-This program calculates the average of 10 numbers entered.
+Calculates the mean of several entered numbers.
 
-Just invoke the program after compilation.
+At the prompts
 
-The program asks for 10 values to be entered.
+  in:
 
-After the 10th value is entered the program calculates the average of the numbers that were entered.
+The numbers can be entered, each at a new appearing prompt.
 
-There have to be used 10 values, a larger or bigger number unfortunately is not possible due to limited code space for this project.
+When a zero
+
+  0
+
+is entered, the program exits with telling the result in the terminal.
 
 
 
-Version history
----------------
+
+Version history:
+----------------
+
+Version 2.0
+
+The number of numbers to be entered is not limited to 10 anymore.
+Entering a zero (0) starts the calculation itself and exits the program.
+
+
 
 Version 1.0
 
 Initial version
-

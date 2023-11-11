@@ -1,8 +1,9 @@
 #include "dincl.h"
-double v;int c;
-main()
+double i, v;int c;
+int main()
 {
-  for (c=0;c<=9;++c)
-  {v=v+in();}
-  out(v/10);
+printf ("Entry of 0 exits.\n");
+c=-1;v=0;
+do{i=in();v=v+i;++c;}while (i!=0);
+out(v/c);
 }
