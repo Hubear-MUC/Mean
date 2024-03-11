@@ -1,33 +1,46 @@
-Mean 2.0
+Mean 3.0
 --------
 
 Calculates the mean of several entered numbers.
 
-At the prompts
+The numbers have to be entered as arguments when the program is invoked,
+for example like this:
 
-  in:
+  ./mean 1.1 1.002 1.003 1.102
 
-The numbers can be entered, each at a new appearing prompt.
+This will calculate the result
 
-When a zero
+  1.051750
 
-  0
+Attention: Use the dot (.) as the separator between integer digits and the
+fraction digits, not the comma (,)
 
-is entered, the program exits with telling the result in the terminal.
+This invocation
+
+  ./mean 1,1 1,002 1,003 1,102
+
+will not work.
+
+The result (mean of all numbers entered) will be displayed on the terminal.
 
 
 
 
-Version history:
-----------------
+Changes:
+--------
 
-Version 2.0
+Version 3.0:
+
+Entry of the numbers to calculate the mean of now to be entered as arguments
+at invocation of the program.
+
+
+Version 2.0:
 
 The number of numbers to be entered is not limited to 10 anymore.
 Entering a zero (0) starts the calculation itself and exits the program.
 
 
+Version 1.0:
 
-Version 1.0
-
-Initial version
+Initial implementation

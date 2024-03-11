@@ -1,9 +1,14 @@
-#include "dincl.h"
-double i, v;int c;
-int main()
+#include <stdio.h>
+#include <stdlib.h>
+double r;
+int i;
+main(int c, char** v)
 {
-printf ("Entry of 0 exits.\n");
-c=-1;v=0;
-do{i=in();v=v+i;++c;}while (i!=0);
-out(v/c);
+r=0;i=0;
+for (i = 1;i < c;++i)
+{
+r=r+atof(v[i]);
+}
+r=r/(c-1);
+printf ("%lf\n", r);
 }
