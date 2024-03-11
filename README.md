@@ -3,12 +3,18 @@ Calculation of the mean of numbers to enter.
 
 See "readme.txt" for details.
 
-Code extent: max. 138 bytes
+Code extent: max. 165 bytes
 
 --------
 
 Version history:
 ----------------
+
+Version 3.0
+
+Entry of the numbers to calculate the mean of now to be entered as arguments
+at invocation of the program.
+
 
 Version 2.0
 
